@@ -14,8 +14,11 @@ public class UICobBorer {
     }
 
     private void setQuestions() {
+        //Q1
         questions.add("Apakah rambut tongkol jagung terpotong,berkurang, atau kering?");
+        //Q2
         questions.add("Apakah ujung tongkol memiliki pengangkat?");
+        //Q3
         questions.add("Apakah sering terdapat larva di tanaman?");
     }
 
@@ -37,10 +40,13 @@ public class UICobBorer {
 
     public Set<String> getFacts() {
         Set<String> facts = new HashSet<>();
-        if (answers[0] == 1) facts.add("G28");
-        if (answers[1] == 1) facts.add("G29");
-        if (answers[2] == 1) facts.add("G30");
-        if (answers[3] == 1) facts.add("G31");
+        facts.add("G28");
+        if (answers[0] == 1) 
+            facts.add("G29");
+        if (answers[1] == 1) 
+            facts.add("G30");
+        if (answers[2] == 1) 
+            facts.add("G31");
         return facts;
     }
 
