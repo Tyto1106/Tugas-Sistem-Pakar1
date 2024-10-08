@@ -27,13 +27,13 @@ public class UILeafRust {
     private void setQuestions()
     {
         //Q1
-        questions.add("Apakah Anda mengalami G10?");
+        questions.add("Apakah daun terlihat kering?");
         //Q2
-        questions.add("Apakah Anda mengalami G12?");
+        questions.add("Apakah ada bintik merah di tulang daun?");
         //Q3
-        questions.add("Apakah Anda mengalami G13?");
+        questions.add("Apakah ada benang berbentuk tidak teratur yang berwarna putih dan kemudian coklat?");
         //Q4
-        questions.add("Apakah Anda mengalami G14?");
+        questions.add("Apakah ada serbuk yang keluar seperti tepung berwarna kuning kecoklatan?");
         
     }
     

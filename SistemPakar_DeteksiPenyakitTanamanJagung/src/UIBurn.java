@@ -14,10 +14,10 @@ public class UIBurn {
     }
 
     private void setQuestions() {
+        questions.add("Apakah ada jamur berwarna putih hingga hitam pada biji jagung?");
+        questions.add("Apakah ada biji jagung yang terlihat membengkak?");
         questions.add("Apakah kelenjar terbentuk di dalam biji jagung?");
         questions.add("Apakah kelobot jagung terbuka dan muncul banyak jamur berwarna putih hingga hitam?");
-        questions.add("Apakah ada lubang kecil di daun?");
-        questions.add("Apakah ada celah di batang?");
     }
 
     public void showQuestion() {
