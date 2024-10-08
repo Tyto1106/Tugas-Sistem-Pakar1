@@ -14,9 +14,13 @@ public class UIBurn {
     }
 
     private void setQuestions() {
+        //Q1
         questions.add("Apakah ada jamur berwarna putih hingga hitam pada biji jagung?");
+        //Q2
         questions.add("Apakah ada biji jagung yang terlihat membengkak?");
+        //Q3
         questions.add("Apakah kelenjar terbentuk di dalam biji jagung?");
+        //Q4
         questions.add("Apakah kelobot jagung terbuka dan muncul banyak jamur berwarna putih hingga hitam?");
     }
 
@@ -38,11 +42,15 @@ public class UIBurn {
 
     public Set<String> getFacts() {
         Set<String> facts = new HashSet<>();
-        if (answers[0] == 1) facts.add("G15");
-        if (answers[1] == 1) facts.add("G16");
-        if (answers[2] == 1) facts.add("G17");
-        if (answers[3] == 1) facts.add("G18");
-        if (answers[4] == 1) facts.add("G19");
+            facts.add("G15");
+        if (answers[0] == 1) 
+            facts.add("G16");
+        if (answers[1] == 1) 
+            facts.add("G17");
+        if (answers[2] == 1) 
+            facts.add("G18");
+        if (answers[3] == 1) 
+            facts.add("G19");
         return facts;
     }
 
