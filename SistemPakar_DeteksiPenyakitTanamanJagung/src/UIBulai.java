@@ -26,13 +26,13 @@ public class UIBulai {
     private void setQuestions()
     {
         //Q1
-        questions.add("Apakah Anda mengalami G2?");
+        questions.add("G2. Apakah ada warna putih seperti tepung di permukaan atas dan bawah daun yang klorotik?");
         //Q2
-        questions.add("Apakah Anda mengalami G3?");
+        questions.add("G3. Apakah daun terlihat melintir dan terpelintir?");
         //Q3
-        questions.add("Apakah Anda mengalami G4?");
+        questions.add("G4. Apakah ada pembentukan tongkol yang terganggu?");
         //Q4
-        questions.add("Apakah Anda mengalami G5?");
+        questions.add("Apakah daun yang terkena terlihat layu?");
     }
     
     public void showQuestion()
