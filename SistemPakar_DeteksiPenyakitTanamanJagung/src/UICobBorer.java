@@ -14,9 +14,9 @@ public class UICobBorer {
     }
 
     private void setQuestions() {
-        questions.add("Apakah Anda mengalami G29?");
-        questions.add("Apakah Anda mengalami G30?");
-        questions.add("Apakah Anda mengalami G31?");
+        questions.add("Apakah rambut tongkol jagung terpotong,berkurang, atau kering?");
+        questions.add("Apakah ujung tongkol memiliki pengangkat?");
+        questions.add("Apakah sering terdapat larva di tanaman?");
     }
 
     public void showQuestion() {
