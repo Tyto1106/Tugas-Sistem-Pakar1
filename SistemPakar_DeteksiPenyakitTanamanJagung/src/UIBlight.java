@@ -27,15 +27,15 @@ public class UIBlight {
     private void setQuestions()
     {
         //Q1
-        questions.add("Apakah ada beberapa bercak kecil yang menyatu membentuk bercak yang lebih besar?");
+        questions.add("Apakah ada pembentukan tongkol yang terganggu?");
         //Q2
-        questions.add("Apakah ada bercak coklat berbentuk elips?");
+        questions.add("Apakah ada beberapa bercak kecil yang menyatu membentuk bercak yang lebih besar?");
         //Q3
-        questions.add("Apakah daun terlihat kering?");
+        questions.add("Apakah ada bercak coklat muda yang memanjang berbentuk spiral atau perahu?");
         //Q4
-        questions.add("Apakah ada bintik-bintik kecil berwarna coklat atau kuning di permukaan daun?");
+        questions.add("Apakah ada bercak coklat berbentuk elips?");
         //Q5
-        questions.add("Apakah ada bintik merah di tulang daun?");
+        questions.add("Apakah daun terlihat kering?");
     }
     
     public void showQuestion()
