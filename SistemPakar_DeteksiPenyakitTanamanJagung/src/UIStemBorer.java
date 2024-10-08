@@ -14,12 +14,19 @@ public class UIStemBorer {
     }
 
     private void setQuestions() {
+        //Q1
         questions.add("Apakah ada celah di batang?");
+        //Q2
         questions.add("Apakah dasar bunga jantan atau tongkol mengalami masalah?");
+        //Q3
         questions.add("Apakah batang dan tandan (bunga jantan) mudah patah?");
+        //Q4
         questions.add("Apakah ada tumpukan tandan yang patah?");
+        //Q5
         questions.add("Apakah bunga jantan tidak terbentuk?");
+        //Q6
         questions.add("Apakah ada tepung/kotoran di sekitar pengangkat?");
+        //Q7
         questions.add("Apakah daun terlihat sedikit kuning?");
     }
 
@@ -41,14 +48,21 @@ public class UIStemBorer {
 
     public Set<String> getFacts() {
         Set<String> facts = new HashSet<>();
-        if (answers[0] == 1) facts.add("G20");
-        if (answers[1] == 1) facts.add("G21");
-        if (answers[2] == 1) facts.add("G22");
-        if (answers[3] == 1) facts.add("G23");
-        if (answers[4] == 1) facts.add("G24");
-        if (answers[5] == 1) facts.add("G25");
-        if (answers[6] == 1) facts.add("G26");
-        if (answers[7] == 1) facts.add("G27");
+        facts.add("G20");
+        if (answers[0] == 1) 
+            facts.add("G21");
+        if (answers[1] == 1) 
+            facts.add("G22");
+        if (answers[2] == 1) 
+            facts.add("G23");
+        if (answers[3] == 1) 
+            facts.add("G24");
+        if (answers[4] == 1) 
+            facts.add("G25");
+        if (answers[5] == 1) 
+            facts.add("G26");
+        if (answers[6] == 1) 
+            facts.add("G27");
         return facts;
     }
 
