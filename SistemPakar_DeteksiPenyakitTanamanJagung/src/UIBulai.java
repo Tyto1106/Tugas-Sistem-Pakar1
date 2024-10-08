@@ -75,11 +75,11 @@ public class UIBulai {
         System.out.println("Inferred facts: " + inferedFacts);
         if(bulai == true)
         {
-            System.out.println("iya iya iya bulai");
+            System.out.println("Bulai detected");
         }
         else
         {
-            System.out.println("tidak tidak tidak bulai");
+            System.out.println("No bulai detected");
         }
     }    
 }

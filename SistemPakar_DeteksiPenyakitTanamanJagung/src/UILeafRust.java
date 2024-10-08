@@ -77,11 +77,11 @@ public class UILeafRust {
         System.out.println("Inferred facts: " + inferedFacts);
         if(leaf == true)
         {
-            System.out.println("iya iya iya Leaf Rust");
+            System.out.println("Leaf Rust detected");
         }
         else
         {
-            System.out.println("tidak tidak tidak Leaf Rust");
+            System.out.println("NO Leaf Rust detected");
         }
     }
 }
