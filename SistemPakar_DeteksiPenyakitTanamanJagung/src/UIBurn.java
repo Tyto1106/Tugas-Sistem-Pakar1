@@ -14,10 +14,10 @@ public class UIBurn {
     }
 
     private void setQuestions() {
-        questions.add("Apakah Anda mengalami G16?");
-        questions.add("Apakah Anda mengalami G17?");
-        questions.add("Apakah Anda mengalami G18?");
-        questions.add("Apakah Anda mengalami G19?");
+        questions.add("Apakah kelenjar terbentuk di dalam biji jagung?");
+        questions.add("Apakah kelobot jagung terbuka dan muncul banyak jamur berwarna putih hingga hitam?");
+        questions.add("Apakah ada lubang kecil di daun?");
+        questions.add("Apakah ada celah di batang?");
     }
 
     public void showQuestion() {
