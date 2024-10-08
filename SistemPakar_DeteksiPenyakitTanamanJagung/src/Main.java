@@ -6,7 +6,6 @@ import java.io.IOException;
 
 
 public class Main {
-    //tes github
 
     public static List<Rule> getKnowledge() throws FileNotFoundException, IOException
     {
@@ -100,7 +99,7 @@ public class Main {
                     leafIsTrue = true;
                 else
                     leafIsTrue = false;
-                cekBlight.showConclussion(leafIsTrue, facts, inferedFacts);
+                cekLeafRust.showConclussion(leafIsTrue, facts, inferedFacts);
                 break;
             }
             case 4 -> {
@@ -119,7 +118,7 @@ public class Main {
                     burnIsTrue = true;
                 else
                     burnIsTrue = false;
-                cekBlight.showConclussion(burnIsTrue, facts, inferedFacts);
+                cekBurn.showConclussion(burnIsTrue, facts, inferedFacts);
                 break;
             }
             case 5 -> {
@@ -138,7 +137,7 @@ public class Main {
                     stemIsTrue = true;
                 else
                     stemIsTrue = false;
-                cekBlight.showConclussion(stemIsTrue, facts, inferedFacts);
+                cekStemBorer.showConclussion(stemIsTrue, facts, inferedFacts);
                 break;
             }
             case 6 -> {
@@ -157,7 +156,7 @@ public class Main {
                     cobIsTrue = true;
                 else
                     cobIsTrue = false;
-                cekBlight.showConclussion(cobIsTrue, facts, inferedFacts);
+                cekCobBorer.showConclussion(cobIsTrue, facts, inferedFacts);
                 break;
             }
             default -> {
