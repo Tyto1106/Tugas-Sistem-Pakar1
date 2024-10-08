@@ -14,13 +14,13 @@ public class UIStemBorer {
     }
 
     private void setQuestions() {
-        questions.add("Apakah Anda mengalami G21?");
-        questions.add("Apakah Anda mengalami G22?");
-        questions.add("Apakah Anda mengalami G23?");
-        questions.add("Apakah Anda mengalami G24?");
-        questions.add("Apakah Anda mengalami G25?");
-        questions.add("Apakah Anda mengalami G26?");
-        questions.add("Apakah Anda mengalami G27?");
+        questions.add("Apakah ada celah di batang?");
+        questions.add("Apakah dasar bunga jantan atau tongkol mengalami masalah?");
+        questions.add("Apakah batang dan tandan (bunga jantan) mudah patah?");
+        questions.add("Apakah ada tumpukan tandan yang patah?");
+        questions.add("Apakah bunga jantan tidak terbentuk?");
+        questions.add("Apakah ada tepung/kotoran di sekitar pengangkat?");
+        questions.add("Apakah daun terlihat sedikit kuning?");
     }
 
     public void showQuestion() {
