@@ -27,15 +27,15 @@ public class UIBlight {
     private void setQuestions()
     {
         //Q1
-        questions.add("Apakah Anda mengalami G5?");
+        questions.add("Apakah ada beberapa bercak kecil yang menyatu membentuk bercak yang lebih besar?");
         //Q2
-        questions.add("Apakah Anda mengalami G7?");
+        questions.add("Apakah ada bercak coklat berbentuk elips?");
         //Q3
-        questions.add("Apakah Anda mengalami G8?");
+        questions.add("Apakah daun terlihat kering?");
         //Q4
-        questions.add("Apakah Anda mengalami G9?");
+        questions.add("Apakah ada bintik-bintik kecil berwarna coklat atau kuning di permukaan daun?");
         //Q5
-        questions.add("Apakah Anda mengalami G10?");
+        questions.add("Apakah ada bintik merah di tulang daun?");
     }
     
     public void showQuestion()
