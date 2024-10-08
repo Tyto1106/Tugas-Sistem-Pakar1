@@ -20,12 +20,12 @@ public class UI {
         Scanner sc = new Scanner(System.in);
         
         System.out.println("Dari gejala-gejala di bawah ini mana yang ada pada tanaman jagung anda? \n "
-                + "1. G1 \n "
-                + "2. G6 \n "
-                + "3. G11 \n "
-                + "4. G15 \n "
-                + "5. G20 \n "
-                + "6. G28 \n "
+                + "1. Apakah tanaman jagung Anda mengalami perubahan warna daun menjadi klorotik (menguning)? \n "
+                + "2. Apakah daun-daun tanaman jagung Anda terlihat layu? \n "
+                + "3. Apakah tanaman jagung Anda memiliki bintik-bintik kecil berwarna cokelat atau kuning di permukaan daunnya? \n "
+                + "4. Apakah tongkol jagung pada tanaman Anda mengalami pembengkakan? \n "
+                + "5. Apakah Bapak/Ibu menemukan lubang kecil di daun? \n "
+                + "6. Apakah ada lubang melintang di daun pada tahap vegetatif? \n "
                 + "0. tidak satupun di atas");
         gejalaPertama = sc.nextInt();
         
