@@ -6,11 +6,12 @@ import java.io.IOException;
 
 
 public class Main {
+    //tes github
 
     public static List<Rule> getKnowledge() throws FileNotFoundException, IOException
     {
         //ganti dengan lokasi project Anda nanti
-        FileReader reader = new FileReader("D:\\JavaProject\\Tugas-Sistem-Pakar1\\Tugas-Sistem-Pakar1\\SistemPakar_DeteksiPenyakitTanamanJagung\\src\\knowledge_base");
+        FileReader reader = new FileReader("E:\\COLLEGE\\Semester_5\\Sistem Pakar\\DeteksiPenyakitTanamanJagung\\Tugas-Sistem-Pakar1\\SistemPakar_DeteksiPenyakitTanamanJagung\\src\\knowledge_base");
         BufferedReader bufferedReader = new BufferedReader(reader);
         List<Rule> rules = new ArrayList<>();
         String line;
