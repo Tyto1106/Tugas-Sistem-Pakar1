@@ -26,13 +26,13 @@ public class UIBulai {
     private void setQuestions()
     {
         //Q1
-        questions.add("G2. Apakah ada warna putih seperti tepung di permukaan atas dan bawah daun yang klorotik?");
+        questions.add("Apakah tanaman mengalami keterlambatan pertumbuhan?");
         //Q2
-        questions.add("G3. Apakah daun terlihat melintir dan terpelintir?");
+        questions.add(" Apakah ada warna putih seperti tepung di permukaan atas dan bawah daun yang klorotik?");
         //Q3
-        questions.add("G4. Apakah ada pembentukan tongkol yang terganggu?");
+        questions.add("Apakah daun terlihat melintir dan terpelintir?");
         //Q4
-        questions.add("Apakah daun yang terkena terlihat layu?");
+        questions.add("Apakah ada pembentukan tongkol yang terganggu?");
     }
     
     public void showQuestion()
